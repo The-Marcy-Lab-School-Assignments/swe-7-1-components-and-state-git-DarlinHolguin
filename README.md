@@ -61,37 +61,37 @@ There are 21 tasks to complete and 2 bonuses.
 Your goal is to meet at least 75% of these requirements to complete the assignment. But don't stop there — shoot for 100%!
 
 **Greeting & Language Buttons** (4 points)
-- [ ] Your app renders a greeting (e.g., "Good Morning") in English by default
-- [ ] Beneath the greeting there are five buttons, each for a different language (e.g., Spanish, Haitian Creole, Portuguese, French, Japanese)
-- [ ] Clicking a language button translates the greeting to the appropriate language (hint: use an object to map each language to its translation!)
-- [ ] When a language button is active (selected), it is visually distinguished from the others (e.g., a different background color or border)
+- [x] Your app renders a greeting (e.g., "Good Morning") in English by default
+- [x] Beneath the greeting there are five buttons, each for a different language (e.g., Spanish, Haitian Creole, Portuguese, French, Japanese)
+- [x] Clicking a language button translates the greeting to the appropriate language (hint: use an object to map each language to its translation!)
+- [x] When a language button is active (selected), it is visually distinguished from the others (e.g., a different background color or border)
 
 **Size Buttons** (3 points)
-- [ ] Above the greeting there are two buttons to increase and decrease the font size
-- [ ] Clicking the buttons changes the greeting's font size accordingly
-- [ ] The font size cannot go below a minimum value (e.g., 12px) or above a maximum value (e.g., 72px)
+- [x] Above the greeting there are two buttons to increase and decrease the font size
+- [x] Clicking the buttons changes the greeting's font size accordingly
+- [x] The font size cannot go below a minimum value (e.g., 12px) or above a maximum value (e.g., 72px)
 
 **Theme Toggle** (3 points)
-- [ ] There is a button to toggle between a light theme (white background, black text) and a dark theme (black background, white text)
-- [ ] When toggled, the background color and text color of the whole app change appropriately
-- [ ] The button label updates to reflect the current theme (e.g., "Switch to Dark Mode" / "Switch to Light Mode")
+- [x] There is a button to toggle between a light theme (white background, black text) and a dark theme (black background, white text)
+- [x] When toggled, the background color and text color of the whole app change appropriately
+- [x] The button label updates to reflect the current theme (e.g., "Switch to Dark Mode" / "Switch to Light Mode")
 
 **Click History** (4 points)
-- [ ] Below the language buttons there is a "History" section
-- [ ] Every time a language button is clicked, the name of that language is added to the top of a history list
-- [ ] The history list displays the last 5 language selections (older entries are dropped when the list exceeds 5)
-- [ ] There is a "Clear History" button that empties the history list
+- [x] Below the language buttons there is a "History" section
+- [x] Every time a language button is clicked, the name of that language is added to the top of a history list
+- [x] The history list displays the last 5 language selections (older entries are dropped when the list exceeds 5)
+- [x] There is a "Clear History" button that empties the history list
 
 **React Fundamentals** (4 points)
-- [ ] Component names use PascalCase (`MyComponent` instead of `myComponent`)
-- [ ] Props are extracted in child components using destructuring
-- [ ] `useState` is used to manage state in at least 4 separate state variables
-- [ ] State that is shared between sibling components is lifted up to the nearest common parent
+- [x] Component names use PascalCase (`MyComponent` instead of `myComponent`)
+- [x] Props are extracted in child components using destructuring
+- [x] `useState` is used to manage state in at least 4 separate state variables
+- [x] State that is shared between sibling components is lifted up to the nearest common parent
 
 **Miscellaneous** (3 points)
-- [ ] Used Vite to create the project
-- [ ] The size buttons, greeting, language buttons, theme toggle, and click history are each their own component for a total of 5 components (plus the root `App`)
-- [ ] At no point did you use any vanilla DOM JS methods (e.g., `document.querySelector` or `document.createElement`)
+- [x] Used Vite to create the project
+- [x] The size buttons, greeting, language buttons, theme toggle, and click history are each their own component for a total of 5 components (plus the root `App`)
+- [x] At no point did you use any vanilla DOM JS methods (e.g., `document.querySelector` or `document.createElement`)
 
 **Bonus** (2 points)
 - [ ] Bonus: You have a `components` directory. Each component has its own file and is exported (1 export per file). The filename matches the component name (`GreetingDisplay.jsx` exports a `GreetingDisplay` component).
